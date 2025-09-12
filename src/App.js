@@ -1,5 +1,7 @@
 import React from 'react';
+import './unframer-polyfill'; // Import polyfill first
 import './framer/styles.css';
+import './test-polyfill'; // Test polyfill
 
 // Import all the Framer components
 import HeroSectionFramerComponent from './framer/hero-section';
